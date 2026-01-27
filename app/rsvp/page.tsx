@@ -1,6 +1,6 @@
-import { Navigation } from "@/components/navigation"
-import { RSVP } from "@/components/rsvp"
-import { Footer } from "@/components/footer"
+import { Navigation } from "@/components/navigation";
+import RSVP from "@/components/rsvp";
+import { Footer } from "@/components/footer";
 
 export default function RSVPPage() {
   return (
@@ -11,5 +11,5 @@ export default function RSVPPage() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }

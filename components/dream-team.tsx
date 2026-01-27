@@ -1,5 +1,7 @@
 // app/dream-team/page.tsx
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import {
   Mail,
   Mic,
@@ -152,6 +154,13 @@ export default function DreamTeam() {
               </p>
             </div>
           </Card>
+          <div className="pt-6 flex justify-center">
+            <Button asChild variant="outline">
+              <Link href="/dream-team/intern">
+                Kun for Dream Team (passord)
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
