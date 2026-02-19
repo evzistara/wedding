@@ -87,11 +87,13 @@ export function Schedule() {
 
                   {/* Content */}
                   <Card
-                    className={`flex-1 p-8 ml-20 md:ml-0 border-0 shadow-md ${
+                    className={`flex-1 p-4 md:p-8 ml-20 md:ml-0 border-0 shadow-md ${
                       index % 2 === 0 ? "md:mr-auto" : "md:ml-auto"
                     } md:w-[calc(50%-30px)]`}
                   >
-                    <h3 className="text-2xl font-light mb-2">{item.title}</h3>
+                    <h3 className="text-2xl font-light md:mb-2">
+                      {item.title}
+                    </h3>
                     <p className="text-muted-foreground font-[family-name:var(--font-montserrat)]">
                       {item.description}
                     </p>
