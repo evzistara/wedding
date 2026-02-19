@@ -150,7 +150,12 @@ export default function DreamTeam() {
                 <Mail className="h-5 w-5 text-primary" />
               </div>
               <p className="font-[family-name:var(--font-montserrat)]">
-                maylissogkent@gmail.com
+                <a
+                  href="mailto:kentogmayliss@yahoo.com"
+                  className="text-primary hover:underline"
+                >
+                  kentogmayliss@yahoo.com
+                </a>
               </p>
             </div>
           </Card>
