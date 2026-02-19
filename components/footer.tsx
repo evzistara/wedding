@@ -9,7 +9,7 @@ export function Footer() {
             <Heart className="h-5 w-5 text-primary fill-primary" />
           </div>
           <p className="text-muted-foreground font-[family-name:var(--font-montserrat)] mb-2">
-            Mayliss & Kent
+            Kent & Mayliss
           </p>
           <p className="text-sm text-muted-foreground font-[family-name:var(--font-montserrat)]">
             27. juni
@@ -17,8 +17,13 @@ export function Footer() {
           <div className="mt-6 text-xs text-muted-foreground">
             <p>For mer informasjon, se nedtrekksmeny.</p>
             <p>
-              For ytterligere informasjon eller spørsmål, kontakt oss på
-              example@example.com
+              For ytterligere informasjon eller spørsmål, kontakt oss på{" "}
+              <a
+                href="mailto:kentogmayliss@yahoo.com"
+                className="text-primary hover:underline"
+              >
+                kentogmayliss@yahoo.com
+              </a>
             </p>
           </div>
         </div>

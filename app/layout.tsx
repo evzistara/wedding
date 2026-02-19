@@ -1,22 +1,22 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Cormorant_Garamond, Montserrat } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+import { Cormorant_Garamond, Montserrat } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import "./globals.css";
 
 const _cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-})
+});
 
 const _montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
   variable: "--font-montserrat",
-})
+});
 
 export const metadata: Metadata = {
-  title: "Mayliss & Kent - Bryllup",
+  title: "Kent & Mayliss - Bryllup",
   description: "Bli med oss på vår spesielle dag",
   generator: "v0.app",
   icons: {
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -50,5 +50,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

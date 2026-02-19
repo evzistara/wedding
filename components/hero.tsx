@@ -55,7 +55,7 @@ export function Hero() {
         </div>
 
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-light mb-10 text-balance">
-          Mayliss & Kent
+          Kent & Mayliss
         </h1>
 
         <div className="text-xl md:text-2xl tracking-[0.3em] font-light text-muted-foreground mb-6">

@@ -4,7 +4,7 @@ const scheduleItems = [
   {
     time: "13:00",
     title: "Vielse",
-    description: "Vi gir våre foralltid ja",
+    description: "Vi gir våre ja",
   },
   {
     time: "14:30",
@@ -13,21 +13,48 @@ const scheduleItems = [
       "Feir med prosecco, kanapeer og kaker på Borregaard Hovedgaard mens vi venter på at brudeparet ankommer",
   },
   {
-    time: "16:30",
-    title: "Bordsetting i Låven",
-    description:
-      "Her flytter vi oss over til «Låven» mens brudeparet tar noen siste bilder. Nyt et glass prosecco mens dere tar bilder foran foto-standen. Eller kanskje dere ønsker å skriv gode råd til oss og legge konvolutten i «Gode råd-banken». ",
+    time: "15:00",
+    title: "Brudeparet ankommer",
+    description: "",
   },
   {
-    time: "17:30",
+    time: "15:15",
+    title: "Kakekutting",
+    description: "",
+  },
+  {
+    time: "15:30",
+    title: "Foto med alle gjester",
+    description:
+      "Brudeparet ønsker at det skal bli tatt foto av alle gjestene våre! Dette vil bli organisert samtidig som mingling flyttes over til middags- og festlokalet. ",
+  },
+  {
+    time: "15:45",
+    title: "Mingling i Låven",
+    description:
+      "Vi flytter oss over til «Låven» mens brudeparet tar noen siste bilder. Her kan dere nyte et glass prosecco mens dere tar bilder foran foto-standen. Eller kanskje dere ønsker å skrive noen gode råd til oss og legge konvolutten i «Gode råd-banken». ",
+  },
+  {
+    time: "17:00",
     title: "Middag",
     description: "Velkomsttale og 3-retters middag med noe godt i glasset. ",
   },
   {
-    time: "21:00",
-    title: "Bryllups-kake og -vals",
+    time: "19:30",
+    title: "Bryllupsvals og fest",
     description:
-      "Vi skjærer bryllupskake og danser brudevals. Til slutt åpner DJ-en dansegulvet og vi er klare for fest!",
+      "Brudeparet danser valsen sin før DJ-en åpner dansegulvet og vi er klare for fest!",
+  },
+  {
+    time: "01:00",
+    title: "Nattmat",
+    description:
+      "Nattmaten serveres når kvelden nærmer seg slutten. Søtsaker og snacks vil bli satt på bordene gjennom kvelden.",
+  },
+  {
+    time: "02:00",
+    title: "Avslutning",
+    description: "",
   },
 ];
 

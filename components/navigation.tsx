@@ -11,10 +11,11 @@ const navItems = [
   { name: "Vielse og mottakelse", href: "/vielse-og-mottakelse" },
   { name: "Timeplan", href: "/timeplan" },
   { name: "Q&A", href: "/qa" },
-  { name: "Friday Mingle", href: "/friday-mingle" },
+  /*{ name: "Friday Mingle", href: "/friday-mingle" },*/
   { name: "Hotell", href: "/hotell" },
   { name: "Dream-team", href: "/dream-team" },
   { name: "RSVP", href: "/rsvp" },
+  { name: "Updates", href: "/updates" },
 ];
 
 export function Navigation() {
@@ -44,7 +45,7 @@ export function Navigation() {
             href="/"
             className="text-2xl font-semibold tracking-wide text-foreground"
           >
-            {"M & K"}
+            {"K & M"}
           </Link>
 
           {/* Desktop Navigation */}

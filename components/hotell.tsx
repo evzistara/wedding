@@ -65,7 +65,7 @@ export default function Hotell() {
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-primary" />
                     <span className="font-[family-name:var(--font-montserrat)]">
-                      epost@gmail.com
+                      kentogmayliss@yahoo.com
                     </span>
                   </div>
                 </div>

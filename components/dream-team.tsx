@@ -154,6 +154,7 @@ export default function DreamTeam() {
               </p>
             </div>
           </Card>
+          {/*
           <div className="pt-6 flex justify-center">
             <Button asChild variant="outline">
               <Link href="/dream-team/intern">
@@ -161,6 +162,7 @@ export default function DreamTeam() {
               </Link>
             </Button>
           </div>
+          */}
         </div>
       </div>
     </section>

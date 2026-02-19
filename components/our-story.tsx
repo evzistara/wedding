@@ -55,17 +55,12 @@ export function OurStory() {
           <div className="gap-8 mb-16">
             <div className="text-center mt-16">
               <p className="text-muted-foreground leading-relaxed font-[family-name:var(--font-montserrat)] mb-10">
-                Vi ser frem til å feire en av våre lykkeligste dager med de vi
-                holder oss nært og kjært.
+                Vi ser frem til å feire denne dagen med familie og venner.
               </p>
               <p className="text-muted-foreground leading-relaxed font-[family-name:var(--font-montserrat)] mb-10">
                 Vielsen finner plass i Sarpsborg kirke kl 13, før ferden går
                 videre til mingling på Borregaard Hovedgård kl 14.30. Festen
                 finner sted i nabolokalet, som vi kaller «Låven».{" "}
-              </p>
-              <p className="text-muted-foreground leading-relaxed font-[family-name:var(--font-montserrat)]">
-                Vi gleder oss til en feiring av to mennesker som gir sitt ja til
-                hverandre med dere.
               </p>
             </div>
           </div>

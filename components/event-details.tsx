@@ -120,6 +120,22 @@ export function EventDetails() {
 
           <Card className="mt-8 p-8 border-0 shadow-lg bg-card">
             <h3 className="text-2xl font-light mb-4 text-center font-[family-name:var(--font-montserrat)]">
+              Middag og fest
+            </h3>
+            <p className="text-center text-muted-foreground font-[family-name:var(--font-montserrat)] leading-relaxed">
+              Vi ønsker å dele vielsen med både store og små. Barna er også
+              hjertelig velkomne til mottakelsen, hvor det vil bli servert noe
+              søtt som vi håper faller i smak.
+            </p>
+            <p className="text-center text-muted-foreground font-[family-name:var(--font-montserrat)] leading-relaxed">
+              Selve middagen og festen blir en voksenfeiring, og gjennomføres
+              derfor uten barn. Middag og fest arrangeres i nabolokalet – Låven.
+              💛
+            </p>
+          </Card>
+
+          <Card className="mt-8 p-8 border-0 shadow-lg bg-card">
+            <h3 className="text-2xl font-light mb-4 text-center font-[family-name:var(--font-montserrat)]">
               Parkering
             </h3>
             <p className="text-center text-muted-foreground font-[family-name:var(--font-montserrat)] leading-relaxed">
