@@ -123,8 +123,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-#cusdis_thread iframe {
-  min-height: 1000px !important;
-  width: 100% !important;
-}

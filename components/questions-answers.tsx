@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react";
 import { useEffect } from "react";
+import { CusdisComments } from "@/components/CusdisComments";
 
 import {
   Accordion,
@@ -230,6 +231,11 @@ const faqs: FAQ[] = [
           feststemning og dans. Det betyr at når middagen er ferdig, er rammene
           satt for en skikkelig feiring – med god stemning, musikk og dansegulv.
         </p>
+        <img
+          src="/kart.jpg"
+          alt="Kart over området"
+          className="w-full h-full object-cover min-h-[350px]"
+        />
       </>
     ),
   },
@@ -482,7 +488,8 @@ export function QuestionsAnswers() {
             ))}
           </Accordion>
 
-          {/* Guest questions / forum */}
+          {/* Guest questions / forum
+      
           <div className="py-16 text-center">
             <h2 className="text-3xl md:text-4xl font-light mb-6">
               Spørsmål fra gjester
@@ -496,6 +503,27 @@ export function QuestionsAnswers() {
             <Card className="p-6 md:p-8 border-0 shadow-lg bg-card text-left">
               <div className="commonninja_component pid-34d3f9da-0d81-4756-827e-e236b1fcbb66" />
             </Card>
+          </div>*/}
+          <div className="py-16 text-center">
+            <h2 className="text-3xl md:text-4xl font-light mb-6">
+              Spørsmål fra gjester
+            </h2>
+            <div className="h-px w-24 bg-primary mx-auto mb-6" />
+            <p className="text-muted-foreground font-[family-name:var(--font-montserrat)] mb-10">
+              Hvis dere har andre spørsmål, spør oss gjerne i forumet nedenfor.
+              Dere er nok ikke de eneste med spørsmålet!
+            </p>
+            <div className="container mx-auto px-4">
+              <div className="max-w-4xl mx-auto min-h-[80vh]">
+                <Card className="p-6 md:p-8 border-0 shadow-lg bg-card text-left">
+                  <CusdisComments
+                    appId="b760e42b-4e10-4e81-9cd2-a79034b4e41c"
+                    pageId="qa"
+                    pageTitle="Spørsmål og svar"
+                  />
+                </Card>
+              </div>
+            </div>
           </div>
         </div>
       </div>
