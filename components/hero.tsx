@@ -41,7 +41,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/romantic-wedding-ceremony-outdoor-garden.jpg"
+          src="/brudeparet.jpg"
           alt="Wedding venue"
           className="w-full h-full object-cover opacity-20"
         />
