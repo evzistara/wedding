@@ -18,7 +18,7 @@ const _montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Kent & Mayliss - Bryllup",
   description: "Bli med oss på vår spesielle dag",
-  generator: "v0.app",
+  /*generator: "v0.app",
   icons: {
     icon: [
       {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       },
     ],
     apple: "/apple-icon.png",
-  },
+  },*/
 };
 
 export default function RootLayout({
