@@ -1,34 +1,13 @@
 // app/rsvp/page.tsx
 "use client";
 
-import { Card } from "@/components/ui/card";
 import { Navigation } from "@/components/navigation";
-import { useEffect } from "react";
 
 export default function RSVPPage() {
-  useEffect(() => {
-    const scriptSrc = "https://tally.so/widgets/embed.js";
+  const GOOGLE_FORM_EMBED_URL = "YOUR_GOOGLE_FORM_EMBED_URL_HERE";
 
-    if (!document.querySelector(`script[src="${scriptSrc}"]`)) {
-      const script = document.createElement("script");
-      script.src = scriptSrc;
-      script.async = true;
-      script.onload = () => {
-        // @ts-ignore
-        if (window.Tally) {
-          // @ts-ignore
-          window.Tally.loadEmbeds();
-        }
-      };
-      document.body.appendChild(script);
-    } else {
-      // @ts-ignore
-      if (window.Tally) {
-        // @ts-ignore
-        window.Tally.loadEmbeds();
-      }
-    }
-  }, []);
+  const GOOGLE_FORM_PUBLIC_URL = "YOUR_GOOGLE_FORM_PUBLIC_LINK_HERE";
+
   return (
     <>
       <Navigation />
@@ -47,24 +26,26 @@ export default function RSVPPage() {
           </div>
 
           {/* Google Form */}
-
           <div className="container mx-auto py-10">
             <div className="max-w-4xl mx-auto">
-              <div className="rounded-2xl bg-secondary/50 p-2">
+              <div className="rounded-2xl overflow-hidden shadow-lg bg-white">
                 <iframe
-                  data-tally-src="https://tally.so/embed/b5WMX6?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-                  loading="lazy"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSc88IDbZBFuhDEwfLFxSN4pQ9fnY92uAerMGFbG9sm2mcyKKQ/viewform?usp=dialog"
                   width="100%"
-                  height="400"
-                  frameBorder={0}
-                  title="RSVP – Wedding"
-                />
+                  height="1300"
+                  frameBorder="0"
+                  marginHeight={0}
+                  marginWidth={0}
+                  title="RSVP – Bryllup"
+                >
+                  Laster…
+                </iframe>
               </div>
 
               {/* Fallback link */}
               <div className="mt-6 text-center">
                 <a
-                  href="PASTE_YOUR_PUBLIC_FORM_LINK_HERE"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc88IDbZBFuhDEwfLFxSN4pQ9fnY92uAerMGFbG9sm2mcyKKQ/viewform?usp=dialog"
                   target="_blank"
                   rel="noreferrer"
                   className="text-sm text-primary hover:underline font-[family-name:var(--font-montserrat)]"
