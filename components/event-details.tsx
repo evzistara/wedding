@@ -139,24 +139,6 @@ export function EventDetails() {
               💛
             </p>
           </Card>
-          <Accordion type="single" collapsible className="mt-8">
-            <AccordionItem
-              value="gallery"
-              className="bg-card border-0 rounded-lg shadow-lg overflow-hidden"
-            >
-              <AccordionTrigger className="px-8 py-6 hover:no-underline">
-                <h3 className="text-2xl font-light font-[family-name:var(--font-montserrat)] text-center w-full">
-                  Se oversikt over område
-                </h3>
-              </AccordionTrigger>
-
-              <AccordionContent className="px-8 pb-8">
-                <div className="rounded-2xl overflow-hidden shadow-md">
-                  <img src="/kart.jpg" alt="Bilde" className="w-full h-auto" />
-                </div>
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
 
           <Card className="mt-8 p-8 border-0 shadow-lg bg-card">
             <h3 className="text-2xl font-light mb-4 text-center font-[family-name:var(--font-montserrat)]">
@@ -183,6 +165,25 @@ export function EventDetails() {
               className="mx-auto mt-4"
             />
           </Card>
+
+          <Accordion type="single" collapsible className="mt-8">
+            <AccordionItem
+              value="gallery"
+              className="bg-card border-0 rounded-lg shadow-lg overflow-hidden"
+            >
+              <AccordionTrigger className="px-8 py-6 hover:no-underline">
+                <h3 className="text-2xl font-light font-[family-name:var(--font-montserrat)] text-center w-full">
+                  Se oversikt over område
+                </h3>
+              </AccordionTrigger>
+
+              <AccordionContent className="px-8 pb-8">
+                <div className="rounded-2xl overflow-hidden shadow-md">
+                  <img src="/kart.jpg" alt="Bilde" className="w-full h-auto" />
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </section>
