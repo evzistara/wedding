@@ -25,6 +25,18 @@ export function Footer() {
                 kentogmayliss@yahoo.com
               </a>
             </p>
+            <br />
+            <p>---</p>
+
+            <p>
+              Nettsiden er utviklet av{" "}
+              <a
+                href="https://stara.no"
+                className="text-primary hover:underline"
+              >
+                Stara Webtjenester
+              </a>
+            </p>
           </div>
         </div>
       </div>
